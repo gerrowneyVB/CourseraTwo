@@ -10,6 +10,7 @@ def check_disk_full(disk, min_gb, min_percent):
     gigabytes_free = du.free / 2**30
     if percent_free < min_percent or gigabytes_free < min_gb:
         return True
+##main 1231 local
     return False
 ## added this comment 1353
 # comment 1403 remote
@@ -24,6 +25,7 @@ def main():
     
     print("Everything ok")
     sys.exit(0)
+## main 1231 local
 ## added this comment 1349
 
 main()
