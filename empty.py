@@ -1,6 +1,7 @@
 atom all_checks.py
 #!/usr/binenv python3
 (...)
+## comment 1202 020424
 ## feature2 1234 local
 def check_disk_full(disk, min_gb, min_percent):
     """Returns True if there isn't enough disk space, False otherwise."""
